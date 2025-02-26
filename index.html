@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>spotify clone</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+            </li>
+            <li><button class="sign-in-button">Sign In</button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>My Favourite Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" src="path/to/image1.jpg">
+                    <span class="songName">Ayudhapooja</span>
+                    <span class="songlistplay"><span class="timestamp">02:54 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image2.jpg">
+                    <span class="songName">Peelings</span>
+                    <span class="songlistplay"><span class="timestamp">04:07 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image3.jpg">
+                    <span class="songName">Kissik</span>
+                    <span class="songlistplay"><span class="timestamp">04:08 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image4.jpg">
+                    <span class="songName">NijamaKala</span>
+                    <span class="songlistplay"><span class="timestamp">03:47 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image5.jpg">
+                    <span class="songName">BujjiThalli</span>
+                    <span class="songlistplay"><span class="timestamp">04:08 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image6.jpg">
+                    <span class="songName">SrimathiGaru</span>
+                    <span class="songlistplay"><span class="timestamp">03:42 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="path/to/image7.jpg">
+                    <span class="songName">Hey Rangule</span>
+                    <span class="songlistplay"><span class="timestamp">03:49 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="container1">
+        <div class="artistList">
+            <h1>My favorite artists</h1>
+            <div>
+                <div>
+                    <img alt="1" src="artists/siddisriram.jpeg">
+                    <br>
+                    <span class="artistName">siddisriram</span>
+                </div>
+                <div>
+                    <img alt="2" src="artists/anuragkalkani.jpeg">
+                    <br>
+                    <span class="artistName">anragkalkani</span>
+                </div>
+                <div>
+                    <img alt="3" src="artists/arijitsingh.jpeg">
+                    <br>
+                    <span class="artistName">arijitsingh</span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">ayudhapooja</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
